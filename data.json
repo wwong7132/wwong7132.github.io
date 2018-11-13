@@ -1,0 +1,69 @@
+{
+	"name": "Wai Hon Wong",
+	"pages": [{
+		"id": 1,
+		"title": "Projects",
+		"projects": [{
+			"title": "Portfolio",
+			"description": "My personal website to showcase my experience and skills.",
+			"links": [{
+				"title": "Source",
+				"url": "..."
+			}]
+		}, {
+			"title": "MTG Search Discord Bot",
+			"description": "A Discord bot written in Python to search for a specified card using the MTG API and Beautiful Soup 4. The bot is hosted on a Raspberry Pi R3",
+			"links": [{
+				"title": "Source",
+				"url": "https://github.com/wwong7132/mtgSearchBot"
+			}]
+		}, {
+			"title": "Discord LED Monitor",
+			"description": "Threaded program written in Python to constantly read the user voice status in Discord. The status will be displayed using LEDs. The device is run on an Arduino Uno with PyFirmata loaded on.",
+			"links": [{
+				"title": "Source",
+				"url": "https://github.com/wwong7132/DiscordMonitor"
+			}]
+		}, {
+			"title": "ShiftOutPy",
+			"description": "ShiftOut code adapted to Python from Arduino. The code is made to be used with a 74HC595, an 8-bit Shift Register.",
+			"links": [{
+				"title": "Source",
+				"url": "https://github.com/wwong7132/ShiftOutPy"
+			}]
+		}]
+	}, {
+		"id": 2,
+		"title": "Skills",
+		"skills": [{
+			"title": "Programming Languages",
+			"languages": ["C++", "C#", "C", "Python", "Java", "JavaScript", "HTML", "CSS", "SQL"]
+			}, {
+			"title": "Software",
+			"software": ["git", "Microsoft Visual Studio 2015", "Microsoft Office", "ModelSim", "MATLAB", "Quartus II", "Eclipse"]
+			}, {
+			"title": "Hardware",
+			"hardware": ["Arduino", "Raspberry Pi", "ARM-based Microcontrollers"]
+		}]
+	}, {
+		"id": 3,
+		"title": "Experience",
+		"experience": [{
+			"title": "Missouri S&T Automation Sub-Group",
+			"description": ""
+		}, {
+			"title": "Missouri S&T Finance Sub-Group",
+			"description": ""
+		}, {
+			"title": "St. Louis Global Game Jam",
+			"description": ""
+		}]
+	}, {
+		"id": 4,
+		"title": "About Me",
+		"about": [{
+			"title": "About Me",
+			"description": "I am a new graduate at Missouri University of Science and Technology with a passion for microcontrollers and programming . I majored in Computer Engineering and minored in History. In my spare time I like to work on small projects, learning new concepts, and working with electronics. Outside of programming, I enjoying playing games with friends and reading."
+		}]
+	}]
+}
