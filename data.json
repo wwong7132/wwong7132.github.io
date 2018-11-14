@@ -1,6 +1,9 @@
 {
 	"name": "Wai Hon Wong",
 	"pages": [{
+		"id": 0,
+		"title": "Home"
+		}, {
 		"id": 1,
 		"title": "Projects",
 		"projects": [{
