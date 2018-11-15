@@ -1,3 +1,8 @@
+/*Always show scrollbar and enable only when needed*/
+html {
+    overflow-y:scroll;
+}
+
 body {
 	background-color: #FFFFF0;
 }
@@ -50,6 +55,11 @@ h2{
   color: white;
 }
 
+#content{
+	margin-left: 25%;
+	margin-right:25%;
+}
+
 #content-top {
     border-radius: 35px 35px 10px 10px;
     background: #4CAF50;
@@ -57,28 +67,25 @@ h2{
 }
 
 #content-mid {
+    text-align: center;
+}
+
+#content-mid-frame {
     border-radius: 10px;
     border: 2px solid #4CAF50;
-    padding: 10px;
+	padding: 10px;
 	width: auto;
-	text-align: center;
 }
 
 #content-bot {
 	display: inline;
-	padding: 0px 10px;
 }
 
 #content-bot-frame {
 	border-radius: 10px 10px 35px 35px;
     border: 2px solid #4CAF50;
-    padding: 10px;
+    padding: 5px;
 	text-align: center;
-}
-
-/* Page content */
-.content {
-  padding: 16px;
 }
 
 /* The sticky class is added to the navbar with JS when it reaches its scroll position */

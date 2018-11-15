@@ -12,18 +12,18 @@
 			"description": "My personal website to showcase my experience and skills. The website is created using JavasScript with minimal use of HTML and CSS.",
 			"links": [{
 				"title": "Source",
-				"url": "https://wwong7132.github.io"
+				"url": "https://github.com/wwong7132/wwong7132.github.io"
 			}]
 		}, {
 			"title": "MTG Search Discord Bot",
-			"description": "A Discord bot written in Python to search for a specified card using the MTG API and Beautiful Soup 4. The bot is hosted on a Raspberry Pi R3",
+			"description": "A Discord bot written in Python to search for a specified card using the MTG API and Beautiful Soup 4. The bot is hosted on a Raspberry Pi 3.",
 			"links": [{
 				"title": "Source",
 				"url": "https://github.com/wwong7132/mtgSearchBot"
 			}]
 		}, {
 			"title": "Discord LED Monitor",
-			"description": "Threaded program written in Python to constantly read the user voice status in Discord. The status will be displayed using LEDs. The device is run on an Arduino Uno with PyFirmata loaded on.",
+			"description": "Threaded program written in Python to constantly read the user voice status in Discord. The status will be displayed using LEDs. The device is run on an Arduino Uno R3 with PyFirmata loaded on.",
 			"links": [{
 				"title": "Source",
 				"url": "https://github.com/wwong7132/DiscordMonitor"
@@ -53,10 +53,10 @@
 		"id": 3,
 		"title": "Experience",
 		"content": [{
-			"title": "Missouri S&T Automation Sub-Group",
+			"title": "Missouri S&T Solar House Automation Sub-Group",
 			"description": ""
 		}, {
-			"title": "Missouri S&T Finance Sub-Group",
+			"title": "Missouri S&T Solar House Finance Sub-Group",
 			"description": ""
 		}, {
 			"title": "St. Louis Global Game Jam",

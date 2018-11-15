@@ -12,7 +12,6 @@ function saveData( callback) {
 //Test function
 saveData(function( json ){
 	data = json;
-	//console.log( "JSON Data: " + data.pages[2] );
 });
 
 //Takes json and ID number as inputs. ID corresponds to the number in the json file
@@ -35,13 +34,16 @@ function switchPage( data, id ) {
 		//Append data
 		content.appendChild( h );
 		
+		//Create mid frame
+		var mframe = document.createElement( 'div' );
+		mframe.setAttribute( "id" , "content-mid-frame" );
+		mframe.innerHTML = " ";
+		content.appendChild( mframe );
 		//Populate page with content under title
 		var p = document.createElement( 'p' );
 		p.innerHTML = data.pages[id].content[i].description;
 		p.setAttribute( "id", "content-mid" );
-		content.appendChild( p );
-		
-		//console.log(data.pages[id].content[i].links[0].title);
+		mframe.appendChild( p );
 		
 		//Fill links and other content if applicable
 		
