@@ -2,16 +2,17 @@
 	"name": "Wai Hon Wong",
 	"pages": [{
 		"id": 0,
-		"title": "Home"
-		}, {
+		"title": "Home",
+		"content": ""
+	}, {
 		"id": 1,
 		"title": "Projects",
-		"projects": [{
+		"content": [{
 			"title": "Portfolio",
 			"description": "My personal website to showcase my experience and skills.",
 			"links": [{
 				"title": "Source",
-				"url": "..."
+				"url": "https://wwong7132.github.io"
 			}]
 		}, {
 			"title": "MTG Search Discord Bot",
@@ -38,20 +39,20 @@
 	}, {
 		"id": 2,
 		"title": "Skills",
-		"skills": [{
+		"content": [{
 			"title": "Programming Languages",
-			"languages": ["C++", "C#", "C", "Python", "Java", "JavaScript", "HTML", "CSS", "SQL"]
+			"description": ["C++", "C#", "C", "Python", "Java", "JavaScript", "HTML", "CSS", "SQL"]
 			}, {
 			"title": "Software",
-			"software": ["git", "Microsoft Visual Studio 2015", "Microsoft Office", "ModelSim", "MATLAB", "Quartus II", "Eclipse"]
+			"description": ["git", "Microsoft Visual Studio 2015", "Microsoft Office", "ModelSim", "MATLAB", "Quartus II", "Eclipse"]
 			}, {
 			"title": "Hardware",
-			"hardware": ["Arduino", "Raspberry Pi", "ARM-based Microcontrollers"]
+			"description": ["Arduino", "Raspberry Pi", "ARM-based Microcontrollers"]
 		}]
 	}, {
 		"id": 3,
 		"title": "Experience",
-		"experience": [{
+		"content": [{
 			"title": "Missouri S&T Automation Sub-Group",
 			"description": ""
 		}, {
@@ -64,7 +65,7 @@
 	}, {
 		"id": 4,
 		"title": "About Me",
-		"about": [{
+		"content": [{
 			"title": "About Me",
 			"description": "I am a new graduate at Missouri University of Science and Technology with a passion for microcontrollers and programming . I majored in Computer Engineering and minored in History. In my spare time I like to work on small projects, learning new concepts, and working with electronics. Outside of programming, I enjoying playing games with friends and reading."
 		}]
