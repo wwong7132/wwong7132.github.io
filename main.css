@@ -22,7 +22,7 @@ h2{
 	text-align: center;
 }
 
-/* Need to prevents navbar from compressing on smaller resolutions */
+/* Need to prevent navbar from compressing on smaller resolutions */
 /* Style the navbar */
 #navbar {
   overflow: hidden;

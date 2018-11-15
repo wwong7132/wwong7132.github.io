@@ -9,7 +9,7 @@
 		"title": "Projects",
 		"content": [{
 			"title": "Portfolio",
-			"description": "My personal website to showcase my experience and skills.",
+			"description": "My personal website to showcase my experience and skills. The website is created using JavasScript with minimal use of HTML and CSS.",
 			"links": [{
 				"title": "Source",
 				"url": "https://wwong7132.github.io"
@@ -67,7 +67,11 @@
 		"title": "About Me",
 		"content": [{
 			"title": "About Me",
-			"description": "I am a new graduate at Missouri University of Science and Technology with a passion for microcontrollers and programming . I majored in Computer Engineering and minored in History. In my spare time I like to work on small projects, learning new concepts, and working with electronics. Outside of programming, I enjoying playing games with friends and reading."
+			"description": "I am a new graduate at Missouri University of Science and Technology with a passion for microcontrollers and programming . I majored in Computer Engineering and minored in History. In my spare time I like to work on small projects, learning new concepts, and working with electronics. Outside of programming, I enjoying playing games with friends and reading.",
+			"links": [{
+				"title": "Contact Me",
+				"url": "mailto:wwong7132@gmail.com"
+			}]
 		}]
 	}]
 }

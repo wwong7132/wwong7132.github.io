@@ -17,33 +17,6 @@ saveData(function( json ){
 
 //Takes json and ID number as inputs. ID corresponds to the number in the json file
 function switchPage( data, id ) {
-	/* console.log( "setData function...");
-	console.log( "id input: " + id)
- 	console.log( "JSON Data: " + Object.keys(data.pages[id].content[0]) ); */
-		
-	setPage( data, id);
-	//Switch case statement because of different sub categories of json file
-	//Should consider editing json to have similar subgroups...
-	/* switch( id ) {
-		case 0:
-			setPage( data, id);
-			break;
-		case 1:
-			setPage( data, id);
-			break;
-		case 2:
-			setPage( data, id);
-			break;
-		case 3:
-			setPage( data, id);
-			break;
-		case 4:
-			setPage( data, id);
-			break;
-	} */
-}
-
-function setPage( data, id ) {
 	var p = document.createElement('p');
 	
 	//Clear page before adding new content
