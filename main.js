@@ -15,8 +15,11 @@ function saveData( callback) {
     });
 }
 
-//Main functionality of website
-//Takes json and ID number as inputs. ID corresponds to the number in the json file
+/*
+Main functionality of website
+Takes json and ID number as inputs. The code only works for json files similar to the one in the repo
+Input: data is a json object converted to string. id is the number corresponding to the json file
+*/
 function switchPage( data, id ) {
 	var p = document.createElement('p');
 	
@@ -77,12 +80,25 @@ function switchPage( data, id ) {
 				a.innerHTML = data.pages[id].content[i].links[j].title;
 				a.setAttribute( "href", data.pages[id].content[i].links[j].url)
 				a.setAttribute( "id", "links" + i);
+				
+				//Check for icon images before appending
+				if (data.pages[id].content[i].links[j].icon)
+				{	
+					//Set icon attributes to pictures if found
+					var img = document.createElement( 'img' );
+					img.setAttribute( "id" , "icon" );
+					img.setAttribute( "src", data.pages[id].content[i].links[j].icon);
+					a.appendChild(img);
+				}
+				
+				//Finally append links to bottom frame
 				d.appendChild( a );
 			}
 		}
 	}
 }
 
+//Clear page function. Deletes text with the content HTML ID
 function clearPage(){
 	document.getElementById( "content" ).innerHTML = '';
 }

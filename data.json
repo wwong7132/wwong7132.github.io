@@ -6,10 +6,19 @@
 		"content": [{
 			"title": "About Me",
 			"picture": "pics/pic.png",
-			"description": "I am a new graduate at Missouri University of Science and Technology with a passion for microcontrollers and programming . I majored in Computer Engineering and minored in History. In my spare time I like to work on small projects, learning new concepts, and working with electronics. Outside of programming, I enjoying playing games with friends and reading.",
+			"description": "My name is Wai Hon Wong and I am a recent graduate at Missouri University of Science and Technology with a passion for microcontrollers and programming . I majored in Computer Engineering and minored in History. In my spare time I like to work on small projects, learning new concepts, and working with electronics. Outside of programming, I enjoying playing games with friends and reading. Find my contact information and other links below.",
 			"links": [{
-				"title": "Contact me at: wwong7132@gmail.com",
-				"url": "mailto:wwong7132@gmail.com"
+				"title": " ",
+				"url": "mailto:wwong7132@gmail.com",
+				"icon": "pics/gmail-icon.ico"
+			}, {
+				"title": " ",
+				"url": "https://www.linkedin.com/in/wai-hon-wong-0b6288138/",
+				"icon": "pics/linkedin_ico.png"
+			}, {
+				"title": " ",
+				"url": "https://github.com/wwong7132",
+				"icon": "pics/GitHub-Mark-64px.png"
 			}]
 		}]
 	}, {

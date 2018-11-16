@@ -68,7 +68,6 @@ h2{
 }
 
 #content-mid {
-    
 }
 
 #content-mid-frame {
@@ -92,6 +91,8 @@ h2{
 #content-bot-frame  a {
 	color: #0161FE;
 	text-decoration: none;
+	display: inline;
+	padding: 5px;
 }
 
 #content-bot-frame  a:hover {
@@ -101,6 +102,11 @@ h2{
 #pic {
 	width:200px;
 	height:200px;
+}
+
+#icon {
+	width:40px;
+	height:40px;
 }
 
 /* The sticky class is added to the navbar with JS when it reaches its scroll position */
