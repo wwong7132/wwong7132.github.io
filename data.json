@@ -61,14 +61,18 @@
 		"id": 3,
 		"title": "Experience",
 		"content": [{
-			"title": "Missouri S&T Solar House Automation Sub-Group",
-			"description": ""
-		}, {
 			"title": "Missouri S&T Solar House Finance Sub-Group",
-			"description": ""
+			"description": "August 2012-May 2014<br>I wrote grant applications to various institutions to gain funding and created spreadsheets to analyze the cost of the house."
+		}, {
+			"title": "Missouri S&T Solar House Automation Sub-Group",
+			"description": "August 2013-May-2014<br>I collaborated in developing a basic interface to control house electronics using PHP."
 		}, {
 			"title": "St. Louis Global Game Jam",
-			"description": ""
+			"description": "January 26-28, 2018<br>Designed a game with a team in Unity in 48 hours. I used C# to create the interface and control scripts.",
+			"links": [{
+				"title": "Game Site",
+				"url": "https://globalgamejam.org/2018/games/mission-transmission-9"
+			}]
 		}]
 	}]
 }
