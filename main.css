@@ -82,11 +82,25 @@ h2{
 	padding-top:10px;
 }
 
+/* Frame needed so only one frame is made around row of content */
 #content-bot-frame {
 	border-radius: 10px 10px 35px 35px;
     border: 2px solid #4CAF50;
     padding: 5px;
-	
+}
+
+#content-bot-frame  a {
+	color: #0161FE;
+	text-decoration: none;
+}
+
+#content-bot-frame  a:hover {
+	color: black;
+}
+
+#pic {
+	width:200px;
+	height:200px;
 }
 
 /* The sticky class is added to the navbar with JS when it reaches its scroll position */

@@ -1,6 +1,12 @@
 var data;
 
-//$.getJSON( "data.json", saveData);
+//Call function on startup
+saveData(function( json ){
+	data = json;
+	
+	//Initialize landing page
+	switchPage( data, 0 );
+})
 
 //Saves json file as global variable
 function saveData( callback) {
@@ -9,11 +15,7 @@ function saveData( callback) {
     });
 }
 
-//Test function
-saveData(function( json ){
-	data = json;
-});
-
+//Main functionality of website
 //Takes json and ID number as inputs. ID corresponds to the number in the json file
 function switchPage( data, id ) {
 	var p = document.createElement('p');
@@ -34,6 +36,15 @@ function switchPage( data, id ) {
 		//Append data
 		content.appendChild( h );
 		
+		//Check if json specifies pictures
+		if(data.pages[id].content[i].picture)
+		{
+			var img = document.createElement( 'img' );
+			img.setAttribute( "src", data.pages[id].content[i].picture);
+			img.setAttribute( "id" , "pic" );
+			content.appendChild(img);
+		}
+		
 		//Create mid frame
 		var mframe = document.createElement( 'div' );
 		mframe.setAttribute( "id" , "content-mid-frame" );
@@ -46,7 +57,6 @@ function switchPage( data, id ) {
 		mframe.appendChild( p );
 		
 		//Fill links and other content if applicable
-		
 		//Check if links exist
 		if (data.pages[id].content[i].links){
 			//Create frame div for bottom row
@@ -74,5 +84,5 @@ function switchPage( data, id ) {
 }
 
 function clearPage(){
-	document.getElementById( "content" ).innerHTML = ''
+	document.getElementById( "content" ).innerHTML = '';
 }

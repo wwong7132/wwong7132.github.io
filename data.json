@@ -3,7 +3,15 @@
 	"pages": [{
 		"id": 0,
 		"title": "Home",
-		"content": ""
+		"content": [{
+			"title": "About Me",
+			"picture": "pics/pic.png",
+			"description": "I am a new graduate at Missouri University of Science and Technology with a passion for microcontrollers and programming . I majored in Computer Engineering and minored in History. In my spare time I like to work on small projects, learning new concepts, and working with electronics. Outside of programming, I enjoying playing games with friends and reading.",
+			"links": [{
+				"title": "Contact me at: wwong7132@gmail.com",
+				"url": "mailto:wwong7132@gmail.com"
+			}]
+		}]
 	}, {
 		"id": 1,
 		"title": "Projects",
@@ -41,13 +49,13 @@
 		"title": "Skills",
 		"content": [{
 			"title": "Programming Languages",
-			"description": ["C++", "C#", "C", "Python", "Java", "JavaScript", "HTML", "CSS", "SQL"]
+			"description": [" C++", " C#", " C", " Python", " Java", " JavaScript ", " HTML ", " CSS ", " SQL"]
 			}, {
 			"title": "Software",
-			"description": ["git", "Microsoft Visual Studio 2015", "Microsoft Office", "ModelSim", "MATLAB", "Quartus II", "Eclipse"]
+			"description": [" git", " Microsoft Visual Studio 2015", " Microsoft Office" , " ModelSim", " MATLAB", " Quartus II", " Eclipse"]
 			}, {
 			"title": "Hardware",
-			"description": ["Arduino", "Raspberry Pi", "ARM-based Microcontrollers"]
+			"description": [" Arduino", " Raspberry Pi", " ARM-based Microcontrollers"]
 		}]
 	}, {
 		"id": 3,
@@ -61,17 +69,6 @@
 		}, {
 			"title": "St. Louis Global Game Jam",
 			"description": ""
-		}]
-	}, {
-		"id": 4,
-		"title": "About Me",
-		"content": [{
-			"title": "About Me",
-			"description": "I am a new graduate at Missouri University of Science and Technology with a passion for microcontrollers and programming . I majored in Computer Engineering and minored in History. In my spare time I like to work on small projects, learning new concepts, and working with electronics. Outside of programming, I enjoying playing games with friends and reading.",
-			"links": [{
-				"title": "Contact Me",
-				"url": "mailto:wwong7132@gmail.com"
-			}]
 		}]
 	}]
 }

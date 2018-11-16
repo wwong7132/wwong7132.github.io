@@ -38,3 +38,6 @@ function generateNav( data ) {
 		header.appendChild(a);
 	}
 }
+
+//Initialize web page
+//switchPage( data, 0 );
