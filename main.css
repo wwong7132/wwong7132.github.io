@@ -1,6 +1,8 @@
-/*Always show scrollbar and enable only when needed*/
+/* Always show scrollbar and enable only when needed */
+/* Height fixes small mobile problem */
 html {
     overflow-y:scroll;
+	height: 800px;
 }
 
 body {
@@ -57,7 +59,6 @@ h2{
 
 #content{
 	text-align: center;
-	font-size
 	margin-left: 15%;
 	margin-right:15%;
 }
