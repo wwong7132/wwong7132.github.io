@@ -6,7 +6,7 @@
 		"content": [{
 			"title": "About Me",
 			"picture": "pics/pic.png",
-			"description": "My name is Wai Hon Wong and I am a recent graduate at Missouri University of Science and Technology with a passion for microcontrollers and programming . I majored in Computer Engineering and minored in History. In my spare time I like to work on small projects, learning new concepts, and working with electronics. Outside of programming, I enjoying playing games with friends and reading. Find my contact information and other links below.",
+			"description": "My name is Wai Hon Wong and I am a recent graduate at Missouri University of Science and Technology with a passion for microcontrollers and programming . I majored in Computer Engineering and minored in History. In my spare time I like working on small projects, learning new concepts, and working with electronics. Outside of programming, I enjoying playing games with friends and reading. Find my contact information and other links below.",
 			"links": [{
 				"title": " ",
 				"url": "mailto:wwong7132@gmail.com",
@@ -26,7 +26,7 @@
 		"title": "Projects",
 		"content": [{
 			"title": "Portfolio",
-			"description": "My personal website to showcase my experience and skills. The website is created using JavasScript with minimal use of HTML and CSS.",
+			"description": "My personal website to showcase my experience and skills. The website is created using JavaScript with minimal use of HTML and CSS.",
 			"links": [{
 				"title": "Source",
 				"url": "https://github.com/wwong7132/wwong7132.github.io"
@@ -51,6 +51,9 @@
 			"links": [{
 				"title": "Source",
 				"url": "https://github.com/wwong7132/ShiftOutPy"
+				}, {
+				"title": "Arduino Tutorial",
+				"url": "https://www.arduino.cc/en/Tutorial/ShiftOut"
 			}]
 		}]
 	}, {
@@ -58,13 +61,13 @@
 		"title": "Skills",
 		"content": [{
 			"title": "Programming Languages",
-			"description": [" C++", " C#", " C", " Python", " Java", " JavaScript ", " HTML ", " CSS ", " SQL"]
+			"description": ["C++", " C#", " C", " Python", " Java", " JavaScript", " HTML", " CSS", " SQL"]
 			}, {
 			"title": "Software",
-			"description": [" git", " Microsoft Visual Studio 2015", " Microsoft Office" , " ModelSim", " MATLAB", " Quartus II", " Eclipse"]
+			"description": ["git", " Microsoft Visual Studio 2015", " Microsoft Office" , " ModelSim", " MATLAB", " Quartus II", " Eclipse"]
 			}, {
 			"title": "Hardware",
-			"description": [" Arduino", " Raspberry Pi", " ARM-based Microcontrollers"]
+			"description": ["Arduino", " Raspberry Pi", " ARM-based Microcontrollers"]
 		}]
 	}, {
 		"id": 3,
