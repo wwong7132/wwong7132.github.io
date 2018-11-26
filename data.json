@@ -25,6 +25,13 @@
 		"id": 1,
 		"title": "Projects",
 		"content": [{
+		"title": "Minesweeper (C#)",
+			"description": "I remade Minesweeper in C# to accustom myself to using Visual Studio and other features C# has to offer. The program utilizes Windows Forms and sets the board based on the gamestate using buttons that are dynamically generated.",
+			"links": [{
+				"title": "Source",
+				"url": "https://github.com/wwong7132/Minesweeper"
+			}]
+		}, {
 			"title": "Portfolio",
 			"description": "My personal website to showcase my experience and skills. The website is created using JavaScript with minimal use of HTML and CSS.",
 			"links": [{
